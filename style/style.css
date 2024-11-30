@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../font/CeraPro-Thin.woff') format('woff2'),
+         url('../font/CeraPro-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    body{
+        margin-top: 50px;
+    }
+    footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 0 29px 0;
+    background-color: #FBFBFB;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+    }
+    .footer_top{
+        display: flex;
+        gap: 15px;
+        padding: 0 25px 24px 25px;
+    }
+    h2{
+        font-family: 'Cera Pro';
+        color: #3D3D3D;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    h3 {
+        font-family: 'Cera Pro';
+        color: #3D3D3D;
+        font-size: 17px;
+        font-weight: 900;
+    }
+    p{
+        font-family: 'Cera Pro';
+        color: #3D3D3D;
+        font-size: 14px;
+    }
+    .block_flover_1, .block_flover_2 {
+        position: relative;
+    }
+    .block_flover_1::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 7px;
+        width: 1px;
+        height: calc(100% - 7px);
+        background-color: rgba(70, 163, 88, 0.1);
+    }
+    .block_flover_2::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 7px;
+        width: 1px;
+        height: calc(100% - 7px);
+        background-color: rgba(70, 163, 88, 0.1);
+    }
+    input {
+        padding: 12px 11px;
+        border: 0px solid transparent;
+        border-radius: 6px;
+        width: 270px;
+    }
+    form a{
+        background-color: #46A358;
+        color: #fff;
+        padding: 12px 25px;
+        border-radius: 0 10px 10px 0;
+        text-decoration: none;
+        font-family: 'Cera Pro';
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .block_flover_text {
+        padding-left: 47px;
+        padding-top: 13px;
+    }
+    .footer_mid {
+        display: flex;
+        gap: 127px;
+        padding: 33px 22px;
+        background: linear-gradient(135deg, #EDF6EF 18%, #52C368);
+        text-align: center;
+    }
+    
+    .footer_mid p {
+        font-weight: bold;
+        position: relative;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+    }
+    
+    p.location::before {
+        content: ""; 
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url('../img/location.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    p.mail::before {
+        content: ""; 
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url('../img/mail.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    p.phone::before {
+        content: ""; 
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        background-image: url('../img/phone.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .footer_mid img {
+        height: 34px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .footer_down {
+        display: flex;
+        padding: 33px 155px 29px 35px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'Cera Pro';
+        font-size: 14px;
+    }
+    .menu1 {
+        padding-right: 164px;
+    }
+    .menu2 {
+        padding-right: 129px;
+    }
+    .menu3 {
+        padding-right: 173px;
+    }
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      
+      .icon {
+        width: 16px;
+        height:16px;
+        padding: 7px;
+        border: 2px solid #cce5d1;
+        border-radius: 8px;
+        fill: #46a358;
+        background-color: #f9fdfb;
+        transition: transform 0.3s, background-color 0.3s;
+      }
+      
+      .icon:hover {
+        transform: scale(1.1);
+        background-color: #e5f5ea;
+      }
+      p.footer-site {
+        text-align: center;
+        font-weight: bold;
+      }
